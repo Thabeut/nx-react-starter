@@ -1,0 +1,15 @@
+{
+  "name": "@confirma/packages",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6"
+  }
+}
